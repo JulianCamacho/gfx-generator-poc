@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import random
 
 # Algoritmo de Bresenham
 def bresenham_algorithm(x0, y0, x1, y1):
@@ -106,6 +107,13 @@ def main():
     vertices = [(2,  1,  (255, 130, 89)), (2,  14, (40, 29, 60)), 
                 (11, 21, (18,  69, 180)), (20, 14, (80, 225, 59)), 
                 (21, 1,  (230, 0, 120))]
+
+    # Descomentar para pruebras random
+    #vertices = [(random.randint(0, 24), random.randint(0, 24), (255, 130, 89)),
+    #            (random.randint(0, 24), random.randint(0, 24), (40, 29, 60)),
+    #            (random.randint(0, 24), random.randint(0, 24), (18, 69, 180)),
+    #            (random.randint(0, 24), random.randint(0, 24), (80, 225, 59)),
+    #            (random.randint(0, 24), random.randint(0, 24), (230, 0, 120))]
                 
     # Definir los edges para unir los vertices
     # edge = (vertex_a, vertex_b)                
