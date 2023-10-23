@@ -27,14 +27,20 @@ innecesarias).
 logremos diseñar una microarquitectura que no requiera estas instrucciones.
 
 
-# Ejecución Poc
+# Ejecución de las PoC
 
 ## Requerimientos
 
 - matplotlib
 
-## Ejecutar
+## Para ejecutar el primer prototipo
 
 ```bash
 python3 render.py
+```
+
+## Para obtener el gif
+
+```bash
+python3 pineda.py 5 0.1 30
 ```
